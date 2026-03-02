@@ -2,7 +2,7 @@
 
 Ce projet est une analyse complète des transactions immobilières en France ("Demandes de Valeurs Foncières"), visant à identifier les dynamiques de marché et les zones d'investissement résilientes.
 
-** Contexte Macro-économique :** Entre 2022 et 2024, le marché a subi une chute brutale de **-30 % de son volume de ventes** (passant de 1,39 million à 968 000 transactions). Cette paralysie, causée principalement par la flambée des taux d'intérêt et le durcissement des conditions de crédit, rend l'analyse de la donnée indispensable pour repérer les rares départements qui conservent une forte liquidité.
+**Contexte Macro-économique :** Entre 2022 et 2024, le marché a subi une chute brutale de **-30 % de son volume de ventes** (passant de 1,39 million à 968 000 transactions). Cette paralysie, causée principalement par la flambée des taux d'intérêt et le durcissement des conditions de crédit, rend l'analyse de la donnée indispensable pour repérer les rares départements qui conservent une forte liquidité.
 
 ## Objectifs et Réalisations
 * **Traitement de la donnée :** Extraction et nettoyage d'une base brute de **12 millions de lignes** pour isoler les 1,1 million de transactions pertinentes (Maisons/Appartements).
