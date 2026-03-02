@@ -18,8 +18,16 @@ Ce projet est une analyse complète des transactions immobilières en France ("D
 ### 3. Liquidité du Marché et Recommandations
 ![Liquidité du marché](03_liquidité_du_marché.jpg)
 
-### 1. Liquidité du Marché et Recommandations
-Cette vue intègre mon modèle statistique de scoring pour identifier le "Top 5" des départements les plus résilients. Le département du Nord se détache avec un score de 89/100, prouvant sa forte liquidité malgré la conjoncture.
+### 3. Liquidité du Marché et Recommandations
+![Liquidité du marché](03_liquidité_du_marché.jpg)
 
-### 2. Vue d'ensemble et Évolution
-Analyse macro-économique montrant une baisse des volumes et des prix médians au m² sur la période étudiée, nécessitant une analyse fine par région.
+**Insight :** Cette vue intègre mon modèle de scoring DAX 
+pour identifier le Top 5 des départements les plus résilients. 
+Le Nord se détache avec **89/100**, prouvant sa forte liquidité 
+malgré la conjoncture baissière.
+
+## Conclusion
+Dans un marché en contraction (-22% de volume), 
+les marchés abordables (Nord, Bouches-du-Rhône) 
+surperforment les marchés premium (Paris -13%, 
+Hauts-de-Seine -15%).
