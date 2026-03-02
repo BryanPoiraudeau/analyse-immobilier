@@ -8,7 +8,7 @@ Ce projet est une analyse complète des transactions immobilières en France ("D
 * **Outils utilisés :** PostgreSQL (Nettoyage/Filtres), Power Query (Modélisation), Power BI (Dataviz & DAX).
 
 ## Contrainte technique rencontré et résolution
-Les fichiers DVF utilisent la virgule comme séparateur 
+Les fichiers issus du dataset utilisent la virgule comme séparateur 
 décimal (format français). PostgreSQL ne reconnaissant 
 pas ce format, j'ai importé toutes les colonnes en TEXT 
 puis utilisé REPLACE(valeur_fonciere, ',', '.') 
