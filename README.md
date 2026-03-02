@@ -19,8 +19,13 @@ pour convertir les valeurs au moment des requêtes.
 ### 1. Vue d'ensemble du marché
 ![Vue d'ensemble](01_Vue_ensemble.jpg)
 
+**Insight :** Baisse globale de -22% du volume 
+de transactions sur la période 2022-2023.
+
 ### 2. Analyse des Prix
 ![Analyse des prix](02_Analyse_des_prix.jpg)
+
+**Insight :** Paris (-13%) et Hauts-de-Seine (-15%) sont les marchés les plus touchés par la crise malgré leur positionnement élevé.
 
 ### 3. Liquidité du Marché et Recommandations
 ![Liquidité du marché](03_liquidité_du_marché.jpg)
