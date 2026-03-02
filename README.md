@@ -7,6 +7,13 @@ Ce projet est une analyse complète des transactions immobilières en France ("D
 * **Création d'un Algorithme de Scoring :** Développement en DAX d'un "Score d'Attractivité" (de 0 à 100). Ce modèle pondère le volume de transactions (liquidité) et la variation des prix (résilience) pour identifier les meilleures opportunités dans un marché baissier.
 * **Outils utilisés :** PostgreSQL (Nettoyage/Filtres), Power Query (Modélisation), Power BI (Dataviz & DAX).
 
+## Contrainte technique rencontré et résolution
+Les fichiers DVF utilisent la virgule comme séparateur 
+décimal (format français). PostgreSQL ne reconnaissant 
+pas ce format, j'ai importé toutes les colonnes en TEXT 
+puis utilisé REPLACE(valeur_fonciere, ',', '.') 
+pour convertir les valeurs au moment des requêtes.
+
 ## Aperçu du Dashboard
 
 ### 1. Vue d'ensemble du marché
