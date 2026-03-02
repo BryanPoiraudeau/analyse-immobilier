@@ -1,23 +1,18 @@
-# Analyse du Marché de l'Immobilier Français 2022-2024
-## Contexte
-Anlyse end
+# 🏢 Analyse du Marché Immobilier Français (2022 - 2024)
 
-### Extraction et Nettoyage
-- Import de 3 fichiers sources constituant 12M de lignes sous PostgreSQL
-- Gestion des formats décimaux français (virgules -> points)
-- Détection et correction des valeurs aberrantes
+Ce projet est une analyse complète des transactions immobilières en France ("Demandes de Valeurs Foncières"), visant à identifier les dynamiques de marché et les zones d'investissement résilientes.
 
-### Requête SQL
-- Répartition par nature de mutation
-- Prix moyen et médian par département
-- Évolution annuelle des prix de 2022 à 2024
-- Classement des marchés par prix au m²
+## 🎯 Objectifs et Réalisations
+* **Traitement de la donnée :** Extraction et nettoyage d'une base brute de **12 millions de lignes** pour isoler les 1,1 million de transactions pertinentes (Maisons/Appartements).
+* **Création d'un Algorithme de Scoring :** Développement en DAX d'un "Score d'Attractivité" (de 0 à 100). Ce modèle pondère le volume de transactions (liquidité) et la variation des prix (résilience) pour identifier les meilleures opportunités dans un marché baissier.
+* **Outils utilisés :** PostgreSQL (Nettoyage/Filtres), Power Query (Modélisation), Power BI (Dataviz & DAX).
 
-### Visualisation Power BI
-- Création d'un dashboard interatif composé de 3 pages (Vue d'ensemble, Analyse des Prix et Liquidité du marché)
-- Conception de KPIs dynamiques (YoY) avec filtres
-- Cartographie des prix par région
-- Modélisation en schéma étoile
+## 📊 Aperçu du Dashboard
 
-## Insights clés
+*(Note : Les images de mon dashboard Power BI sont disponibles dans les fichiers de ce dépôt, n'hésitez pas à les consulter !)*
 
+### 1. Liquidité du Marché et Recommandations
+Cette vue intègre mon modèle statistique de scoring pour identifier le "Top 5" des départements les plus résilients. Le département du Nord se détache avec un score de 89/100, prouvant sa forte liquidité malgré la conjoncture.
+
+### 2. Vue d'ensemble et Évolution
+Analyse macro-économique montrant une baisse des volumes et des prix médians au m² sur la période étudiée, nécessitant une analyse fine par région.
