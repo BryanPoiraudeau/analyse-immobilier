@@ -18,9 +18,6 @@ Ce projet est une analyse complète des transactions immobilières en France ("D
 ### 3. Liquidité du Marché et Recommandations
 ![Liquidité du marché](03_liquidité_du_marché.jpg)
 
-### 3. Liquidité du Marché et Recommandations
-![Liquidité du marché](03_liquidité_du_marché.jpg)
-
 **Insight :** Cette vue intègre mon modèle de scoring DAX 
 pour identifier le Top 5 des départements les plus résilients. 
 Le Nord se détache avec **89/100**, prouvant sa forte liquidité 
